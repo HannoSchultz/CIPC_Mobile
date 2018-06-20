@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Co Registration" cloudDestinationProperty="Co Registration" title="Enterprise Registration" >
+  <component type="Tabs" name="Tabs" cloudDestinationProperty="Tabs" >
+  </component>
+  <component type="Tabs" name="Tabs1" cloudDestinationProperty="Tabs1" >
+    <custom name="titles" type="java.lang.String" array="true" dimensions="1" >
+      <str>Name Reservation</str>
+      <str>Enterprise Inormation</str>
+      <str>Director Information</str>
+    </custom>
+    <component type="Container" name="Container" tabTitle="Name Reservation" cloudDestinationProperty="Container" >
+    </component>
+    <component type="Container" name="Container1" tabTitle="Enterprise Inormation" cloudDestinationProperty="Container1" >
+    </component>
+    <component type="Container" name="Container2" tabTitle="Director Information" cloudDestinationProperty="Container2" >
+    </component>
+  </component>
+</component>

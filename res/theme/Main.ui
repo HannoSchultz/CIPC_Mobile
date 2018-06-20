@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" flatten="true" layout="BoxLayout" boxLayoutAxis="Y" title="CIPC" >
+  <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="LabelMenu" text="Transaction List" verticalAlignment="4" >
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="Containerline" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Button" name="Bchangeofname" cloudDestinationProperty="Bchangeofname" commandName="Change of Name" commandId="20" commandAction="ChangeName" commandBack="false" text="Change of Name" verticalAlignment="4" >
+    </component>
+    <component type="Button" name="Bfye" cloudDestinationProperty="Bfye" commandName="Change FYE" commandId="19" commandAction="ChangeFYE" commandBack="false" text="Change FYE" verticalAlignment="4" >
+    </component>
+  </component>
+  <component type="Button" name="Button" cloudDestinationProperty="Button" commandName="Button" commandId="21" commandAction="Co Registration" commandBack="false" text="Button" >
+  </component>
+</component>

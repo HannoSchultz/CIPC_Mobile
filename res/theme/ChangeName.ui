@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="ChangeName" cloudDestinationProperty="lbldate" layout="BoxLayout" boxLayoutAxis="Y" title="Company Name Change" >
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" uiid="Containerline" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Container" name="Container2" cloudDestinationProperty="Container2" uiid="Containerline" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Label" name="Label" cloudDestinationProperty="Label" text="Enterprise Number" >
+      </component>
+      <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="Container" layout="BoxLayout" boxLayoutAxis="X" >
+        <component type="TextField" name="txtyear" cloudBoundProperty="text" cloudDestinationProperty="txt_year" uiid="TEXT" verticalAlignment="4" text="" maxSize="4" hint="YEAR" columns="5" >
+        </component>
+        <component type="Label" name="Label11" cloudDestinationProperty="Label1" uiid="Text" text="/" >
+        </component>
+        <component type="TextField" name="txtbody" cloudBoundProperty="text" cloudDestinationProperty="txt_body" uiid="TEXT" scrollVisible="true" text="" maxSize="6" hint="BODY" columns="6" >
+        </component>
+        <component type="Label" name="Label12" cloudDestinationProperty="Label1" uiid="Text" text="/" >
+        </component>
+        <component type="TextField" name="txttype" cloudBoundProperty="text" cloudDestinationProperty="txt_type" uiid="TEXT" text="" maxSize="2" hint="TYPE" columns="4" >
+        </component>
+      </component>
+    </component>
+    <component type="Container" name="Container3" cloudDestinationProperty="Container3" uiid="Containerline" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Label" name="Resolution Date" cloudDestinationProperty="Resolution Date" text="Resolution Date" >
+      </component>
+      <component type="Picker" name="resdate" cloudDestinationProperty="res_date" uiid="TEXT" text=" " >
+      </component>
+    </component>
+    <component type="Container" name="Container4" cloudDestinationProperty="Container4" uiid="Containerline" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Label" name="Label1" cloudDestinationProperty="Label1" text="Name Reservation Number" >
+      </component>
+      <component type="TextField" name="txtnameno" cloudBoundProperty="text" cloudDestinationProperty="txt_name_no" uiid="TEXT" text="" hint="New Reservation Number" >
+      </component>
+    </component>
+    <component type="Button" name="btn_validate" cloudDestinationProperty="btn_validate" uiid="Button" text="Validate " gap="0" >
+    </component>
+  </component>
+</component>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="ChangeNameContinue" cloudDestinationProperty="ChangeNameContinue" layout="BoxLayout" boxLayoutAxis="Y" title="Company Name Change" >
+</component>

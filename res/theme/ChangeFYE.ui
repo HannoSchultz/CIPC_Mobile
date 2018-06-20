@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="ChangeFYE" cloudDestinationProperty="ChangeFYE" uiid="Form" focusable="false" title="Change FYE" >
+  <component type="Container" name="Container3" cloudDestinationProperty="Container3" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" uiid="ContainerMain" rtl="false" scrollableX="true" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Label" name="Label" cloudDestinationProperty="Label" text="Enterprise Number" >
+      </component>
+      <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="TextFieldpadleft" layout="BoxLayout" boxLayoutAxis="X" >
+        <component type="Container" name="Container2" cloudDestinationProperty="Container2" >
+          <component type="TextField" name="txtyear" cloudBoundProperty="text" cloudDestinationProperty="txt_year" uiid="TEXT" rtl="false" verticalAlignment="4" text="2014" maxSize="4" columns="6" >
+          </component>
+          <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="Text" text="/" >
+          </component>
+          <component type="TextField" name="txtbody" cloudBoundProperty="text" cloudDestinationProperty="txt_body" uiid="TEXT" rtl="false" scrollVisible="true" text="228761" maxSize="6" columns="6" >
+          </component>
+          <component type="Label" name="Label2" cloudDestinationProperty="Label2" uiid="Text" text="/" >
+          </component>
+          <component type="TextField" name="txttype" cloudBoundProperty="text" cloudDestinationProperty="txt_type" uiid="TEXT" rtl="false" text="07" constraint="2" maxSize="2" editable="true" columns="2" >
+          </component>
+        </component>
+      </component>
+    </component>
+    <component type="Button" name="btnValNumber" cloudDestinationProperty="btnValNumber" text="Validate" >
+    </component>
+    <component type="Label" name="LBLentdetail" cloudDestinationProperty="LBLentdetail" text=" " >
+    </component>
+  </component>
+</component>
